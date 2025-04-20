@@ -1,0 +1,26 @@
+/*
+!/.gitignore
+
+############
+### MODS ###
+############
+!/mods/
+/mods/*
+!/mods/*.jar
+
+######################
+### RESOURCE PACKS ###
+######################
+!/resourcepacks/
+/resourcepacks/*
+!/resourcepacks/*.zip
+
+###############
+### CONFIGS ###
+###############
+!/config/
+/config/*
+!/config/fabric_loader_dependencies.json
+!/config/isxander-main-menu-credits.json
+!/config/yosbr/
+!/config/yosbr/*
