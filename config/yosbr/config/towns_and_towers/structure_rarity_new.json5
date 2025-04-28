@@ -21,7 +21,7 @@ GitHub Repository: [NEED TO MAKE ONE]
 		"spacing": 10,
 		// DEFAULT 24
 		"separation": 5,
-		"frequency": 1,
+		"frequency": 0.7,
 		"salt": 205745294
 	},
 	// Here you can find all structures that aren't villages or outposts.
