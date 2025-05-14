@@ -1,0 +1,10 @@
+{
+  "block": "betternether:blue_obsidian",
+  "dim": "creative:creative",
+  "r": 30,
+  "g": 102,
+  "b": 245,
+  "ignitionType": "BLOCK",
+  "ignitionSource": "minecraft:fire",
+  "returnDim": "minecraft:overworld"
+}
