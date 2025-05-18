@@ -24,3 +24,9 @@
 !/config/isxander-main-menu-credits.json
 !/config/yosbr/
 !/config/yosbr/*
+
+###############
+### PACKWIZ ###
+###############
+!index.toml
+!pack.toml
