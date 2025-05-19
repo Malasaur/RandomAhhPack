@@ -20,7 +20,59 @@
 ###############
 !/config/
 /config/*
+
+# Config files
+!/config/borderlessmining.json
+!/config/capes.json5
+!/config/cem.conf
+!/config/citresewn.json
+!/config/clienttweaks-common.toml
+!/config/controlify.json
+!/config/debugify.json
+!/config/dynamic_fps.json
+!/config/enhanced_bes.properties
+!/config/entity_texture_features.json
 !/config/fabric_loader_dependencies.json
+!/config/fastquit.toml
+!/config/iris.properties
 !/config/isxander-main-menu-credits.json
-!/config/yosbr/
-!/config/yosbr/*
+!/config/lambdynlights.toml
+!/config/midnightcontrols.json
+!/config/midnightlib.json
+!/config/modernfix-mixins.properties
+!/config/modmenu.json
+!/config/moreculling.toml
+!/config/puzzle.json
+!/config/replaymod.json
+!/config/sodium-extra-options.json
+!/config/sodium-options.json
+!/config/xaerominimap.txt
+
+# Just Zoom
+!/config/justzoom/
+/config/justzoom/*
+!/config/justzoom/config.txt
+
+# No Chat Reports
+!/config/NoChatReports/
+/config/NoChatReports/*
+!/config/NoChatReports/NCR-Client.json
+!/config/NoChatReports/NCR-Common.json
+!/config/NoChatReports/NCR-Encryption.json
+
+# Pickup Notifier
+!/config/pickupnotifier/
+/config/pickupnotifier/*
+!/config/pickupnotifier/pickupnotifier-client.toml
+
+# Simple Voice Chat
+!/config/voicechat/
+/config/voicechat/*
+!/config/voicechat/translations.properties
+!/config/voicechat/username-cache.json
+!/config/voicechat/voicechat-client.properties
+!/config/voicechat/voicechat-server.properties
+!/config/voicechat/voicechat-volumes.properties
+
+# Options
+!/options.txt
