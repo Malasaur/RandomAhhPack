@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","file/Chat Reporting Helper.zip","file/Icons v.1.9.1§7.zip","file/Icons+Menu+(Put+Above+Icons).zip","file/Unique Dark 1.20.1 (free).zip","file/FreshAnimations_v1.9.2.zip","file/FA+All_Extensions-v1.4.zip","file/VanillaEvolved_1.9.0.zip","continuity:glass_pane_culling_fix","file/Fast Better Grass.zip","file/Redstone Tweaks 2.3.zip","file/Dramatic Skys Demo 1.5.3.33.zip","file/EBE_1.20.x_v1.1.zip","file/SPEGG BP [1.20-1.x].zip","file/visual-armor-trims-v1.1-1.20.X.zip"]
-incompatibleResourcePacks:["file/VanillaEvolved_1.9.0.zip","file/Dramatic Skys Demo 1.5.3.33.zip","file/visual-armor-trims-v1.1-1.20.X.zip"]
+resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","file/Chat Reporting Helper.zip","file/Icons v.1.9.1§7.zip","file/Icons+Menu+(Put+Above+Icons).zip","file/Unique Dark 1.20.1 (free).zip","file/FreshAnimations_v1.9.2.zip","file/FA+All_Extensions-v1.4.zip","file/VanillaEvolved_1.9.0.zip","continuity:glass_pane_culling_fix","file/Fast Better Grass.zip","file/Redstone Tweaks 2.3.zip","file/Dramatic Skys Demo 1.5.3.33.zip","file/EBE_1.20.x_v1.1.zip","file/SPEGG BP [1.20-1.x].zip","file/visual-armor-trims-v1.1-1.20.X.zip","file/darkGuiSBP1.1.zip","file/Create Computers 1.2.1 - 1.20.1 Resource Pack Only.zip","file/Create+Simple+Storage+Solid+GUI 1.1.zip","file/CreateSophisticatedBackpacks.zip","file/Legacy_0.5_Create_Darkmode_v0.0.1.zip","file/RandomAhhResources.zip"]
+incompatibleResourcePacks:["file/VanillaEvolved_1.9.0.zip","file/Dramatic Skys Demo 1.5.3.33.zip","file/visual-armor-trims-v1.1-1.20.X.zip","file/darkGuiSBP1.1.zip","file/Create+Simple+Storage+Solid+GUI 1.1.zip","file/CreateSophisticatedBackpacks.zip","file/Legacy_0.5_Create_Darkmode_v0.0.1.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -126,16 +126,47 @@ key_key.emotecraft.stop:key.keyboard.unknown
 key_key.fabrishot.screenshot:key.keyboard.f2
 key_justzoom.keybinds.keybind.zoom:key.keyboard.c
 key_key.namepain.showculled:key.keyboard.unknown
+key_key.worldeditcui.toggle:key.keyboard.unknown
+key_key.worldeditcui.clear:key.keyboard.unknown
+key_key.worldeditcui.chunk:key.keyboard.unknown
 key_net.clayborn.accurateblockplacement.togglevanillaplacement:key.keyboard.unknown
+key_key.ae2.wireless_terminal:key.keyboard.unknown
+key_key.ae2.portable_item_cell:key.keyboard.unknown
+key_key.ae2.portable_fluid_cell:key.keyboard.unknown
+key_key.ae2.guide:key.keyboard.g
+key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.bridgingmod.toggle_bridging:key.keyboard.comma
-key_key.cavedust.toggle:key.keyboard.keypad.add
-key_key.cavedust.reload:key.keyboard.keypad.enter
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
 key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
+key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_create.keyinfo.ponder:key.keyboard.w
+key_key.createbigcannons.pitch_mode:key.keyboard.c
+key_key.createbigcannons.fire_controlled_cannon:key.mouse.left
+key_Scene1 start/pause:key.keyboard.keypad.1
+key_Scene2 start/pause:key.keyboard.keypad.2
+key_Scene3 start/pause:key.keyboard.keypad.3
+key_Scene reset:key.keyboard.keypad.0
+key_Quest Log:key.keyboard.l
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.fabricskyboxes.toggle:key.keyboard.unknown
 key_key.fabricskyboxes.toggle.debug_hud:key.keyboard.unknown
+key_key.jetpack.toggle_active.description:key.keyboard.g
+key_key.jetpack.toggle_hover.description:key.keyboard.h
+key_key.immersive_aircraft.multi_control_left:key.keyboard.a
+key_key.immersive_aircraft.multi_control_right:key.keyboard.d
+key_key.immersive_aircraft.multi_control_forward:key.keyboard.w
+key_key.immersive_aircraft.multi_control_backward:key.keyboard.s
+key_key.immersive_aircraft.multi_control_up:key.keyboard.space
+key_key.immersive_aircraft.multi_control_down:key.keyboard.left.shift
+key_key.immersive_aircraft.multi_control_pull:key.keyboard.s
+key_key.immersive_aircraft.multi_control_push:key.keyboard.w
+key_key.immersive_aircraft.multi_use:key.mouse.right
+key_key.immersive_aircraft.dismount:key.keyboard.r
+key_key.immersive_aircraft.boost:key.keyboard.b
 key_key.jade.config:key.keyboard.keypad.0
 key_key.jade.show_overlay:key.keyboard.keypad.1
 key_key.jade.toggle_liquid:key.keyboard.keypad.2
@@ -188,7 +219,38 @@ key_key.toggleSelectedItemTooltips:key.keyboard.unknown
 key_key.toggleCarriedItemTooltips:key.keyboard.unknown
 key_key.cycleLeft:key.keyboard.g
 key_key.cycleRight:key.keyboard.h
+key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
+key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
+key_key.scroll-for-worldedit.mode:key.keyboard.left.control
+key_key.scroll-for-worldedit.use:key.keyboard.left.alt
+key_key.scroll-for-worldedit.modifier:key.keyboard.z
+key_key.scroll-for-worldedit.move:key.keyboard.unknown
+key_key.scroll-for-worldedit.expand:key.keyboard.unknown
+key_key.scroll-for-worldedit.contract:key.keyboard.unknown
+key_key.scroll-for-worldedit.shift:key.keyboard.unknown
+key_key.scroll-for-worldedit.stack:key.keyboard.unknown
 key_seamless_loading_screen.keybind.config:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
+key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
+key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z
+key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedstorage.sort:key.mouse.middle
+key_key.tacz.inspect.desc:key.keyboard.h
+key_key.tacz.reload.desc:key.keyboard.r
+key_key.tacz.shoot.desc:key.mouse.left
+key_key.tacz.interact.desc:key.keyboard.o
+key_key.tacz.fire_select.desc:key.keyboard.g
+key_key.tacz.aim.desc:key.mouse.right
+key_key.tacz.refit.desc:key.keyboard.z
+key_key.tacz.zoom.desc:key.keyboard.v
+key_key.tacz.melee.desc:key.keyboard.v
+key_key.tacz.open_config.desc:key.keyboard.unknown
+key_key.toms_storage.open_terminal:key.keyboard.b
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-{"defaultSigningMode":"ON_DEMAND","enableMod":true,"showNCRButton":false,"showReloadButton":false,"verifiedIconEnabled":false,"showServerSafety":true,"hideInsecureMessageIndicators":true,"hideModifiedMessageIndicators":false,"hideSystemMessageIndicators":true,"hideWarningToast":true,"hideSigningRequestMessage":true,"alwaysHideReportButton":false,"skipRealmsWarning":true,"skipSigningWarning":true,"disableTelemetry":false,"removeTelemetryButton":false,"demandOnServer":false}
-=======
 {
   "defaultSigningMode": "ON_DEMAND",
   "enableMod": true,
@@ -21,4 +18,3 @@
   "verifiedIconOffsetX": 0,
   "verifiedIconOffsetY": 0
 }
->>>>>>> 159157c8e3f211a3510ed63560425aa61cd879e6

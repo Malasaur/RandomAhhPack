@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-{"allowIllegalTexturePaths":true,"illegalPathSupportMode":"Entity","skinFeaturesEnabled":false,"skinFeaturesEnableTransparency":false,"hideConfigButton":true}
-=======
 {
   "optifine_limitRandomVariantGapsBy10": true,
   "optifine_allowWeirdSkipsInTrueRandom": true,
   "optifine_preventBaseTextureInOptifineDirectory": true,
-  "illegalPathSupportMode": "Entity",
+  "illegalPathSupportMode": "None",
   "enableCustomTextures": true,
   "enableCustomBlockEntities": true,
   "textureUpdateFrequency_V2": "Fast",
@@ -15,10 +12,10 @@
   "emissiveRenderMode": "DULL",
   "alwaysCheckVanillaEmissiveSuffix": true,
   "enableArmorAndTrims": true,
-  "skinFeaturesEnabled": false,
+  "skinFeaturesEnabled": true,
   "skinTransparencyMode": "ETF_SKINS_ONLY",
   "skinTransparencyInExtraPixels": true,
-  "skinFeaturesEnableTransparency": false,
+  "skinFeaturesEnableTransparency": true,
   "skinFeaturesEnableFullTransparency": false,
   "tryETFTransparencyForAllSkins": false,
   "enableEnemyTeamPlayersSkinFeatures": true,
@@ -28,7 +25,7 @@
   "advanced_IncreaseCacheSizeModifier": 1.0,
   "debugLoggingMode": "None",
   "logTextureDataInitialization": false,
-  "hideConfigButton": true,
+  "hideConfigButton": false,
   "configButtonLoc": "BOTTOM_RIGHT",
   "disableVanillaDirectoryVariantTextures": false,
   "use3DSkinLayerPatch": true,
@@ -41,4 +38,3 @@
   "entityRenderLayerOverrides": {},
   "entityLightOverrides": {}
 }
->>>>>>> 159157c8e3f211a3510ed63560425aa61cd879e6

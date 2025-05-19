@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-{"disabledIntegrations":["cem","citresewn","continuity","cullleaves","entity_texture_features","iris","lambdabettergrass","lambdynlights","dynamicfps","borderlessmining","colormatic","entity_model_features"],"enablePuzzleButton":false,"debugMessages":false,"checkUpdates":false,"showPuzzleInfo":false}
-=======
 {
   "disabledIntegrations": [
     "cem",
@@ -29,4 +26,3 @@
   "progressFrameColor": 16777215,
   "disableBlend": false
 }
->>>>>>> 159157c8e3f211a3510ed63560425aa61cd879e6

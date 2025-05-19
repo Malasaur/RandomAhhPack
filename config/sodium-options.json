@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-{"quality":{"weather_quality":"FAST"}}
-=======
 {
   "quality": {
     "weather_quality": "FAST",
@@ -26,4 +23,3 @@
     "has_seen_donation_prompt": false
   }
 }
->>>>>>> 159157c8e3f211a3510ed63560425aa61cd879e6
