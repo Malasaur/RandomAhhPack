@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 {"demandOnClient":false,"convertToGameMessage":true,"addQueryData":false,"enableDebugLog":false}
+=======
+{
+  "demandOnClientMessage": "You do not have No Chat Reports, and this server is configured to require it on client!",
+  "demandOnClient": false,
+  "convertToGameMessage": true,
+  "addQueryData": false,
+  "enableDebugLog": false
+}
+>>>>>>> 159157c8e3f211a3510ed63560425aa61cd879e6

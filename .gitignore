@@ -36,6 +36,8 @@
 !/config/fabric_loader_dependencies.json
 !/config/fastquit.toml
 !/config/iris.properties
+!/config/fastquit.toml
+!/config/iris.properties
 !/config/isxander-main-menu-credits.json
 !/config/lambdynlights.toml
 !/config/midnightcontrols.json
@@ -140,3 +142,5 @@
 # Paxi
 
 !/config/paxi/
+
+!/options.txt
